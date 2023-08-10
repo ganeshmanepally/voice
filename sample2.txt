@@ -1,2 +1,8 @@
 1st test from hyd
 2nd test from newyork
+git config --global pull.rebase true   # or 'false' or 'only'
+git pull origin main
+git pull --rebase origin main
+git pull --ff-only origin main
+git config --global pull.rebase true   # or 'false' or 'only'
+
