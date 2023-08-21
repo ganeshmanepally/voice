@@ -1,5 +1,8 @@
 Hi Good Morning
 1. Creating this file to test branch mechanisam.
-2. Start by pushing --> Local main ---> central main
+2. Push data: Local main ---> central main  = done
+3. Pull data: central main ---> local new = done
+4. Push data: local new ---> central preprod
 Testing
 Will update you the results
+
