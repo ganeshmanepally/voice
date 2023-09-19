@@ -8,8 +8,7 @@ pipeline{
         }
         stage(build){
             steps {
-                sh 'mkdir test'
-                sh 'echo "hello" >> sample.txt'
+                sh 'ls'
             }
         }
         stage(checking path){
