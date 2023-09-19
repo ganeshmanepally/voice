@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('git checkout'){
             steps{
-                git url: 'https://github.com/ganeshmanepally/voice.git', branch: 'main'
+                git url: 'https://github.com/ganeshmanepally/webapp-project.git', branch: 'main'
             }
         }
         stage(build){
@@ -13,6 +13,7 @@ pipeline{
         }
         stage("checking path"){
             steps {
+                sh 'ls'
                 sh 'pwd'
             }
         }
