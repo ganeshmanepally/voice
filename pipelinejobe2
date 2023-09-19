@@ -8,13 +8,13 @@ pipeline{
         }
         stage(build){
             steps {
-                sh mkdir test
-                sh echo "hello" >> sample.txt
+                sh 'mkdir test'
+                sh 'echo "hello" >> sample.txt'
             }
         }
         stage(checking path){
             steps {
-                sh pwd
+                sh 'pwd'
             }
         }
     }
