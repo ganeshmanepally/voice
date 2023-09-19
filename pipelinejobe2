@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage(git checkout){
+        stage('git checkout'){
             steps{
                 git url: 'https://github.com/ganeshmanepally/voice.git', branch: 'master'
             }
@@ -11,7 +11,7 @@ pipeline{
                 sh 'ls'
             }
         }
-        stage(checking path){
+        stage("checking path"){
             steps {
                 sh 'pwd'
             }
