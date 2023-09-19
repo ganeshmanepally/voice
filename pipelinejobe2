@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('git checkout'){
             steps{
-                git url: 'https://github.com/ganeshmanepally/voice.git', branch: 'master'
+                git url: 'https://github.com/ganeshmanepally/voice.git', branch: 'main'
             }
         }
         stage(build){
