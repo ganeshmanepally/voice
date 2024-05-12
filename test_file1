@@ -2,6 +2,4 @@
 2. add
 3. commit
 4. modify and fetch but you don't want that change to be present in working repo
-5. test rebase => make changes in same file in remote
-5. test rebase => make changes in same file in local
-6. test merge => local repo
+5. test rebase => remote
