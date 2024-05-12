@@ -1,5 +1,10 @@
 1. Create new file
 2. add
 3. commit
+<<<<<<< HEAD
 4. modify and fetch but you don't want that change to be present in working repo
 5. modify in remote
+=======
+4. modify and fetch but you don't want that change to be present in working repo 
+5. modify in local
+>>>>>>> 47560ad (modified in local and trying to push to remote)
