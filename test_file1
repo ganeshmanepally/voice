@@ -1,4 +1,5 @@
 1. Create new file
 2. add
 3. commit
-4. modify and fetch but you don't want that change to be present in working repo 
+4. modify and fetch but you don't want that change to be present in working repo
+5. modify in remote
